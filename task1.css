@@ -1,0 +1,111 @@
+html,
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+nav {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 18px;
+  letter-spacing: 0.5cap;
+}
+
+nav li {
+  padding: 5px;
+}
+
+nav li:hover {
+  background-color: #c3bebe;
+  transition: all 0.5s ease-in-out;
+  border-radius: 6px;
+}
+
+.navbar {
+  display: flex;
+  width: 1200px;
+  gap: 100px;
+}
+
+.navbar img {
+  width: 75px;
+  height: 75px;
+}
+
+.student_details {
+  display: flex;
+  gap: 50px;
+}
+
+.student_img img {
+  width: 350px;
+  height: 450px;
+}
+
+.student_details_body {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+}
+
+.student_details_body h1 {
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+.student_details_body h3 {
+  padding: 10px 5px 0px 0px;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.home_buttons {
+  display: flex;
+  gap: 30px;
+  padding-top: 10px;
+}
+
+.home_buttons button {
+  padding: 12px 20px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #f6f6e9;
+}
+
+.skills {
+  display: flex;
+  padding-top: 50px;
+  width: 100%;
+  gap: 50px;
+}
+
+.table_two {
+  display: flex;
+}
+
+ol {
+  margin: 0px;
+}
+
+td,
+th {
+  width: 300px;
+  height: 67px;
+  text-align: start;
+  border: 1px solid black;
+  padding-left: 40px;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
